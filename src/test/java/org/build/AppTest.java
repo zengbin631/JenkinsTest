@@ -13,8 +13,7 @@ public class AppTest
      * Rigorous Test :-)
      */
     @Test
-    public void shouldAnswerWithTrue()
-    {
+    public void shouldAnswerWithTrue(){
         App app=new App();
         int c = app.add(1,2);
         assertTrue( c==3 );
